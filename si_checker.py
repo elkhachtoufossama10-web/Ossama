@@ -28,7 +28,7 @@ from urllib.parse import parse_qs, urlparse
 
 RDAP_URL = "https://rdap.register.si/domain/{}"
 WHOIS_HOST = "whois.register.si"
-LABEL_RE = re.compile(r"^(?!-)(?!..--)[a-z0-9-]{1,63}(?<!-)$")
+LABEL_RE = re.compile(r"^(?!-)(?:xn--|(?!..--))[a-z0-9-]{1,63}(?<!-)$")
 MAX_WORKERS = 3  # be polite to the registry; it rate-limits
 
 
