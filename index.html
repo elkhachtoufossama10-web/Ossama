@@ -54,8 +54,14 @@ async function rdap(domain){
   for(let attempt=0;attempt<4;attempt++){
     for(const u of urls){
       try{
-        const r=await fetch(u+domain,{headers:{Accept:'application/rdap+json'}});
-        if(r.status===404) return ['available','registry: not registered'];
+        const r=await fetch(u+domain,{headers:{Accept:'application/rdap+json'},cache:'no-store'});
+        if(r.status===404){
+          await sleep(1200);
+          const r2=await fetch(u+domain+'?confirm='+Date.now(),{headers:{Accept:'application/rdap+json'}}).catch(()=>null);
+          if(r2&&r2.status===404) return ['available','registry: not registered (confirmed twice)'];
+          if(r2&&r2.status===200) return ['taken','registry: registered'];
+          continue;
+        }
         if(r.status===200){
           const j=await r.json().catch(()=>({}));
           if(String(j.ldhName||'').toLowerCase().replace(/\.$/,'')===domain||j.objectClassName==='domain')
