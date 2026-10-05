@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>.si Domain Checker</title>
+<style>
+:root{--bg:#f5f7f9;--card:#fff;--fg:#14202b;--mute:#5d6b78;--line:#dce3ea;--accent:#1d5fa8;--ok:#0b7a3b;--bad:#c22f2f;--warn:#9a6200;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0f151b;--card:#18212a;--fg:#e6edf3;--mute:#93a1ae;--line:#2a3640;--accent:#6aa7ec;--ok:#4cc480;--bad:#f07070;--warn:#e0aa4a;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.45 -apple-system,system-ui,sans-serif;padding:max(16px,env(safe-area-inset-top)) 16px 32px}
+main{max-width:640px;margin:0 auto;display:grid;gap:14px}
+h1{margin:8px 0 0;font-size:26px}
+p{margin:0;color:var(--mute);font-size:14px}
+textarea{width:100%;min-height:130px;font:16px ui-monospace,Menlo,monospace;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--fg)}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+button{font:600 16px system-ui;padding:12px 20px;border-radius:10px;border:0;background:var(--accent);color:#fff}
+button.sec{background:var(--card);color:var(--fg);border:1px solid var(--line)}
+button:disabled{opacity:.5}
+#list{display:grid;gap:8px}
+.item{display:flex;justify-content:space-between;gap:10px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.item b{word-break:break-all}
+.item small{display:block;color:var(--mute)}
+.pill{font:700 13px system-ui;letter-spacing:.04em;white-space:nowrap}
+.available{color:var(--ok)}.taken{color:var(--bad)}.unknown,.invalid,.checking{color:var(--warn)}
+</style>
+</head>
+<body>
+<main>
+<h1>.si Domain Checker</h1>
+<p>Checks each name live with the official .si registry (rdap.register.si). Type one word or paste a list, one per line.</p>
+<textarea id="words" placeholder="mojadomena&#10;example&#10;ljubljana"></textarea>
+<div class="row">
+<button id="go">Check</button>
+<button class="sec" id="copy">Copy available</button>
+<span id="status" class="pill"></span>
+</div>
+<div id="list"></div>
+</main>
+<script>
+const LABEL=/^(?!-)(?:xn--|(?!..--))[a-z0-9-]{1,63}(?<!-)$/;
+function normalize(w){
+  w=w.trim().toLowerCase().replace(/\.si$/,'');
+  if(!w) return null;
+  let a;
+  try{a=new URL('http://'+w+'.si').hostname.slice(0,-3)}catch{return {err:'invalid characters'}}
+  if(a.includes('.')||!LABEL.test(a)) return {err:'invalid name'};
+  if(a.length<2) return {err:'too short'};
+  return {domain:a+'.si',label:w+'.si'};
+}
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function rdap(domain){
+  const urls=['https://rdap.register.si/domain/','https://rdap.org/domain/'];
+  for(let attempt=0;attempt<4;attempt++){
+    for(const u of urls){
+      try{
+        const r=await fetch(u+domain,{headers:{Accept:'application/rdap+json'}});
+        if(r.status===404) return ['available','registry: not registered'];
+        if(r.status===200){
+          const j=await r.json().catch(()=>({}));
+          if(String(j.ldhName||'').toLowerCase().replace(/\.$/,'')===domain||j.objectClassName==='domain')
+            return ['taken','registry: registered'];
+        }
+        if(r.status===429||r.status>=500) break; // rate limited: wait and retry
+      }catch(e){/* network/CORS: try next source */}
+    }
+    await sleep(1500*2**attempt);
+  }
+  return ['unknown','could not reach registry, try again'];
+}
+const $=id=>document.getElementById(id);
+let results=[];
+$('go').onclick=async()=>{
+  const words=[...new Set($('words').value.split(/[\s,;]+/).filter(Boolean))];
+  if(!words.length) return;
+  $('go').disabled=true;$('list').innerHTML='';results=[];
+  const items=words.map(w=>{
+    const el=document.createElement('div');el.className='item';
+    el.innerHTML=`<div><b></b><small></small></div><span class="pill checking">CHECKING</span>`;
+    el.querySelector('b').textContent=w;$('list').append(el);return {w,el};
+  });
+  let done=0;
+  const queue=[...items];
+  async function worker(){
+    while(queue.length){
+      const {w,el}=queue.shift();
+      const n=normalize(w);let st,detail,name=w;
+      if(!n||n.err){st='invalid';detail=n?n.err:'empty'}
+      else{name=n.label;[st,detail]=await rdap(n.domain)}
+      el.querySelector('b').textContent=name;
+      el.querySelector('small').textContent=detail;
+      const p=el.querySelector('.pill');p.className='pill '+st;p.textContent=st.toUpperCase();
+      results.push({name,st});
+      $('status').textContent=`${++done}/${items.length}`;
+    }
+  }
+  await Promise.all([worker(),worker(),worker()]);
+  $('status').textContent='Done';$('go').disabled=false;
+};
+$('copy').onclick=async()=>{
+  const t=results.filter(r=>r.st==='available').map(r=>r.name).join('\n');
+  try{await navigator.clipboard.writeText(t);$('status').textContent='Copied'}catch{$('status').textContent='Copy failed'}
+};
+</script>
+</body>
+</html>
