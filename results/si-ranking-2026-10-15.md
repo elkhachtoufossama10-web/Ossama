@@ -21,3 +21,7 @@ geoforge 12, atlasvault 12, aegiscloud 12, aurorasystems 12, summitcapital 12, l
 ## Meets rule but trademark risk
 apolloai 18 (Apollo.io), apollohealth 18 (Apollo Hospitals), sentinellabs 15 (SentinelOne's "SentinelLabs"),
 galaxyhub 15 (Samsung Galaxy), fusioncloud 15 (Oracle Fusion Cloud), energyvault 16 (Energy Vault, public co.) — avoid
+
+## Added 23:30 (late batch: eagle/phoenix/orion/helix/carbon)
+eaglevision.si 23 (new #1 by count) | carbonexchange.si 16 | orioncloud.si 13 | orionsystems.si 13 | phoenixenergy.si 13 |
+phoenixcloud.si 12 | phoenixhealth.si 12 | siriusenergy.si 12 | helixsystems.si 12
