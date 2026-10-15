@@ -21,3 +21,28 @@
 | energychain.si | yes | 7 |
 | solarchain.si | yes | 6 |
 | chipmind.si | yes | 3 |
+
+## Space / future-tech batch (checked 2026-10-15, .si confirmed free twice)
+
+| Domain | .ai taken | Extensions registered (of 30) |
+|---|---|---|
+| aerohub.si | yes | 19 |
+| skyenergy.si | yes | 18 |
+| launchforge.si | yes | 17 |
+| novadrive.si | yes | 17 |
+| orbitforge.si | yes | 16 |
+| orbitworks.si | yes | 16 |
+| jetcloud.si | yes | 16 |
+| galaxyhub.si | yes | 15 |
+| nebulaforge.si | yes | 15 |
+| cosmolabs.si | yes | 14 |
+| moonlaunch.si | yes | 13 |
+| rocketbase.si | yes | 13 |
+| launchworks.si | yes | 13 |
+| cosmicforge.si | yes | 13 |
+| orbitbase.si | no | 13 |
+| lunarai.si | yes | 12 |
+| lunarenergy.si | yes | 12 |
+| rocketlink.si | yes | 12 |
+| orbitalhub.si | no | 11 |
+| stellardynamics.si | no | 10 |
