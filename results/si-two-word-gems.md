@@ -46,3 +46,7 @@
 | rocketlink.si | yes | 12 |
 | orbitalhub.si | no | 11 |
 | stellardynamics.si | no | 10 |
+| terragrid.si | yes | 18 |
+| terraworks.si | yes | 15 |
+| apexmotors.si | no | 19 |
+| apexdrive.si | no | 18 |
