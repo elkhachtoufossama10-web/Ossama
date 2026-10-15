@@ -50,3 +50,21 @@
 | terraworks.si | yes | 15 |
 | apexmotors.si | no | 19 |
 | apexdrive.si | no | 18 |
+
+## Future-tech batch (checked 2026-10-15, .si confirmed free twice; counts are minimums, .xyz did not answer)
+
+| Domain | .ai taken | Extensions registered (of 30) |
+|---|---|---|
+| nexuslink.si | yes | 19+ |
+| atomicworks.si | yes | 15+ |
+| fluxenergy.si | no | 14+ |
+| omnilogistics.si | no | 13+ |
+| genesishealth.si | yes | 12+ |
+| neurofusion.si | yes | 9+ |
+| synapsehealth.si | yes | 8+ |
+| braindynamics.si | yes | 8+ |
+| frontierenergy.si | yes | 8+ |
+
+## si+word / word+si .com still free (Verisign, 2026-10-15)
+sigigawatt.com simegawatt.com siterawatt.com sikilowatt.com megawattsi.com terawattsi.com sieuv.com euvsi.com
+silithography.com lithographysi.com sisuperconductor.com sidiode.com siexascale.com sipetascale.com
