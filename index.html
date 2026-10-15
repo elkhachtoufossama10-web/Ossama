@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>.si Domain Checker</title>
+<title>Domain Checker</title>
 <style>
 :root{--bg:#f5f7f9;--card:#fff;--fg:#14202b;--mute:#5d6b78;--line:#dce3ea;--accent:#1d5fa8;--ok:#0b7a3b;--bad:#c22f2f;--warn:#9a6200;color-scheme:light}
 @media (prefers-color-scheme:dark){:root{--bg:#0f151b;--card:#18212a;--fg:#e6edf3;--mute:#93a1ae;--line:#2a3640;--accent:#6aa7ec;--ok:#4cc480;--bad:#f07070;--warn:#e0aa4a;color-scheme:dark}}
@@ -27,10 +27,11 @@ button:disabled{opacity:.5}
 </head>
 <body>
 <main>
-<h1>.si Domain Checker</h1>
-<p>Checks each name live with the official .si registry (rdap.register.si). Type one word or paste a list, one per line.</p>
+<h1>Domain Checker</h1>
+<p>Checks each name live with the official registry: .si (register.si), .com/.net (Verisign). Pick the extension, or type full names like powersi.com. Type one word or paste a list, one per line.</p>
 <textarea id="words" placeholder="mojadomena&#10;example&#10;ljubljana"></textarea>
 <div class="row">
+<select id="tld" aria-label="Extension" style="font:600 16px system-ui;padding:12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--fg)"><option value="si">.si</option><option value="com">.com</option><option value="net">.net</option></select>
 <button id="go">Check</button>
 <button class="sec" id="copy">Copy available</button>
 <span id="status" class="pill"></span>
@@ -39,18 +40,21 @@ button:disabled{opacity:.5}
 </main>
 <script>
 const LABEL=/^(?!-)(?:xn--|(?!..--))[a-z0-9-]{1,63}(?<!-)$/;
+const RDAP={si:['https://rdap.register.si/domain/','https://rdap.org/domain/'],com:['https://rdap.verisign.com/com/v1/domain/'],net:['https://rdap.verisign.com/net/v1/domain/']};
 function normalize(w){
-  w=w.trim().toLowerCase().replace(/\.si$/,'');
+  const tld=$('tld').value;
+  w=w.trim().toLowerCase();
+  const m=w.match(/\.(si|com|net)$/);const t=m?m[1]:tld;w=w.replace(/\.(si|com|net)$/,'');
   if(!w) return null;
   let a;
-  try{a=new URL('http://'+w+'.si').hostname.slice(0,-3)}catch{return {err:'invalid characters'}}
+  try{a=new URL('http://'+w+'.'+t).hostname.slice(0,-(t.length+1))}catch{return {err:'invalid characters'}}
   if(a.includes('.')||!LABEL.test(a)) return {err:'invalid name'};
   if(a.length<2) return {err:'too short'};
-  return {domain:a+'.si',label:w+'.si'};
+  return {domain:a+'.'+t,label:w+'.'+t,tld:t};
 }
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
-async function rdap(domain){
-  const urls=['https://rdap.register.si/domain/','https://rdap.org/domain/'];
+async function rdap(domain,tld){
+  const urls=RDAP[tld];
   for(let attempt=0;attempt<4;attempt++){
     for(const u of urls){
       try{
@@ -92,7 +96,7 @@ $('go').onclick=async()=>{
       const {w,el}=queue.shift();
       const n=normalize(w);let st,detail,name=w;
       if(!n||n.err){st='invalid';detail=n?n.err:'empty'}
-      else{name=n.label;[st,detail]=await rdap(n.domain)}
+      else{name=n.label;[st,detail]=await rdap(n.domain,n.tld)}
       el.querySelector('b').textContent=name;
       el.querySelector('small').textContent=detail;
       const p=el.querySelector('.pill');p.className='pill '+st;p.textContent=st.toUpperCase();
