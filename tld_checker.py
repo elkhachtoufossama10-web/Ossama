@@ -25,7 +25,7 @@ BOOTSTRAP = "https://data.iana.org/rdap/dns.json"
 # Popular extensions used by --count (only those with an RDAP server are queried)
 COUNT_TLDS = ("com net org info biz ai app dev xyz online store tech shop site club live "
               "pro io co me tv cc us uk nl fr ca de eu ch se no fi dk be pl cz sk "
-              "au nz in jp kr br mx es pt it at").split()
+              "nz in jp kr br mx es pt it at").split()
 
 _servers = None
 
@@ -40,7 +40,7 @@ def servers():
 
 
 def _query(url):
-    for attempt in range(5):
+    for attempt in range(3):
         try:
             req = urllib.request.Request(url, headers={"Accept": "application/rdap+json", "User-Agent": "Mozilla/5.0 (domain-checker; RDAP)"})
             with urllib.request.urlopen(req, timeout=20) as r:
@@ -49,11 +49,11 @@ def _query(url):
             if e.code in (404, 200):
                 return e.code
             if e.code in (429, 500, 502, 503, 504):
-                time.sleep(1.5 * 2 ** attempt)
+                time.sleep(1 + 2 * attempt)
                 continue
             return e.code
         except Exception:
-            time.sleep(1.5 * 2 ** attempt)
+            time.sleep(1 + 2 * attempt)
     return None
 
 
