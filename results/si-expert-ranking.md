@@ -135,3 +135,4 @@ apexsports.si 22 | apexstudios.si 21 | primeanalytics.si 21 (data/AI) | aurawork
 apexgames.si 14 | atlasintel.si 12
 Wellness hits (.si free, counts pending): apexdental apexfitness atlasfitness corefitness truewellness crowndental novadental astravision truenutrition clearwellness
 Data/gaming hits (counts pending): titangames astragames aegisintel apexanalytics atlasanalytics auradata alphastudios nexusanalytics vectoranalytics novasports crownlabs
+apexanalytics.si 20 (data/AI) | novasports.si 19 | titangames.si 14 | atlasanalytics.si 14 | alphastudios.si 14 | crownlabs.si 14 | vectoranalytics.si 13 | auradata.si 12 | nexusanalytics.si 12 | Below: astragames 11, aegisintel 8
