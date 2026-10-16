@@ -5,7 +5,7 @@ All: .si free when checked (registry "not found" twice), .ai taken, Ext = regist
 ## Excluded industries (owner rule)
 No mortgage, loans/lending/credit, betting/gambling/casino, adult, alcohol, tobacco/vape or cannabis names are searched or ranked.
 
-## Top 20 — updated 16 Oct 2026 17:00 UTC (rank = market value & demand, not count alone)
+## FINAL Top 20 — 16 Oct 2026 17:35 UTC (hunt paused by owner) (rank = market value & demand, not count alone)
 1  eaglevision.si      33  drones / defense / computer vision
 2  aegiscore.si        25  cybersecurity / defense
 3  aerohub.si          26  aerospace / drones
