@@ -167,3 +167,8 @@ echosphere.si 30 (!! audio/media/AR brandable) | echopulse.si 28 | neonpulse.si 
 echologic.si 15 | horizonpulse.si 15 | firelogic.si 14 | carbonpulse.si 14 (⚠ Carbon Pulse = climate-news site) | Below: shadowlogic 8, cascadeflow 8
 Dropped: lightvision (404 then Registered — inconsistent)
 amberlogic.si 13 | Below: echostack 11, ionflow 9, carbonsense 8, steelbeam 7
+
+## Added 14:20 (brandables; .si free (confirmed twice), .ai taken)
+haloflow.si 32 (!! enters TOP 20 #14; .health .care .software .ventures) | lumenpath.si 26 | pixelvision.si 24 (old Fisher-Price toy name — low TM) | prismflow.si 20 | signalpulse.si 19 |
+fluxmatrix.si 15 | radiantmind.si 13 | signalsphere.si 13 | arclogic.si 12 | Below: halovision 9
+Dropped (inconsistent double-check): prismlogic, vividmind. Skipped TM: radiantlogic (Radiant Logic identity co.)
