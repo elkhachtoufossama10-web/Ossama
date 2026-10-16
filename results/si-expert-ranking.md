@@ -150,3 +150,9 @@ polyforge.si 23 (manufacturing/3D/industrial) | zencapital.si 14 | astrocare.si 
 ## Added 13:00 (tech-suffix; .si free (confirmed twice), .ai taken)
 terrapulse.si 28 (!! climate/earth data — enters TOP 20 at #14) | swiftbridge.si 25 (⚠ SWIFT network echo) | nexusgate.si 22 | atlasbridge.si 20 | clearport.si 20 (.ai unknown) | Below: atlasbrain 9
 Market note: short nova/zen/core+tech combos are being registered now (novaflow.si 2026-09-26).
+
+## Added 13:15 (long industry words; .si free (confirmed twice), .ai taken)
+primetechnologies.si 20 | novatechnologies.si 18 | atlastechnologies.si 16 | swiftmedical.si 15 | apexmedical.si 14 (.clinic) | atlasmedical.si 12
+Below: coremedical 11, primenetworks 10 (.ai unknown), brightdefense 9, atlasinnovations 6
+Nature-tech hits (counts pending): skypulse starpulse solarpulse ironpulse skylogic solarsense bluematrix skymatrix skystack sunsphere greensignal ironsignal lunarwave
+Skipped: oceangate (Titan submersible disaster association)
