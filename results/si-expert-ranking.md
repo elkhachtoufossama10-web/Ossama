@@ -172,3 +172,7 @@ amberlogic.si 13 | Below: echostack 11, ionflow 9, carbonsense 8, steelbeam 7
 haloflow.si 32 (!! enters TOP 20 #14; .health .care .software .ventures) | lumenpath.si 26 | pixelvision.si 24 (old Fisher-Price toy name — low TM) | prismflow.si 20 | signalpulse.si 19 |
 fluxmatrix.si 15 | radiantmind.si 13 | signalsphere.si 13 | arclogic.si 12 | Below: halovision 9
 Dropped (inconsistent double-check): prismlogic, vividmind. Skipped TM: radiantlogic (Radiant Logic identity co.)
+
+## Added 14:50 (soft brandables; .si free (confirmed twice), .ai taken)
+aquasphere.si 27 (water tech) | aquapulse.si 25 | aqualogic.si 22 (⚠ AquaLogic = Hayward pool-controller product line — moderate TM) | vitapulse.si 20 (health) |
+vitalogic.si 12 | quantawave.si 12 | Below: irisflow 11, quantasphere 9, opalstack 9 (Opalstack hosting co.), gaiasphere 8
