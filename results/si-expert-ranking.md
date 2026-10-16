@@ -103,3 +103,12 @@ stellarhealth.si 14 | prismvault.si 14 | primeresearch.si 13 | generx.si 12 | sa
 Below rule: salushealth 10, archealth 10 (.ai unknown), havencapital 9 (.ai unknown), ionhealth 8, cedarhealth/meridianmedical pending
 Finance hits (.si free, counts pending): novawealth clearwealth bluewallet apexinvest clearcredit apexpayments terrawealth novawallet elitewealth corepayments primeinsurance corewealth clearinsurance
 Taken on .si: novapay corepay truewealth sparkpay alphawealth novacredit nexuswealth corebanking astrapay primewealth primecredit ironwallet apexpay alphawallet
+
+## Added 10:35 (finance, security, space/compute; .si free (confirmed twice), .ai taken; Ext of 88)
+FINANCE: apexinvest.si 23 (Tier A) | bluewallet.si 22 (⚠ BlueWallet = well-known Bitcoin wallet app — HIGH TM risk, avoid) | novawealth.si 21 (Tier A) |
+elitewealth.si 19 | novawallet.si 14 | clearwealth.si 13. Below: clearcredit 11, terrawealth 9, corepayments 8, apexpayments 7
+SECURITY: apexsecurity.si 20 (Tier A, generic but several "Apex Security" firms exist) | eaglesecurity.si 19 | coresecure.si 17 | titansecurity.si 17 |
+aegissecurity.si 16 | falconsecurity.si 16 | orionsecurity.si 15 | aegiscyber.si 14 | novasecurity.si 14 | corefleet.si 12 (fleet/logistics)
+CLOUD/SPACE: auracloud.si 20 | swiftlaunch.si 14. Below: bluemars 11 (.ai unknown), blueintelligence 10, sparklaunch 10, clearlaunch 6
+HEALTH: meridianmedical.si 13. Below: cedarhealth 9
+Note: compute/AI .si names are being registered right now (alphacompute.si registered 2026-10-06; sovereigncloud, sovereignintelligence, atlasintelligence, corecloud, bluechips all taken).
