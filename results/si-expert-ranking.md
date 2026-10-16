@@ -127,3 +127,4 @@ Mobility family (EV/robotaxi/fleet/ports/aviation): 0 candidates passed the .com
 cleartrust.si 30 (!! trust/fintech/identity — very high count incl. .capital .ventures .market .llc .ltd; ⚠ "ClearTrust" was an old RSA access-mgmt product name — low/moderate TM risk) — Tier A |
 titanholdings.si 20 | novamarkets.si 17 | swiftlaw.si 17 (legal-tech) | nexusventures.si 16 (.ai unknown) | alphaholdings.si 15 | novalaw.si 14 | novalegal.si 14 | eliteventures.si 13
 Below rule: sigmatrust 11, elitetrust 11, terratrust 11, trueasset 11, trueventures 10, blueventures 10, corefund 10, apexlegal 10, atlasmarkets 9, truelaw 9, truemarkets 8, silvertrust 8
+eliteproperties.si 20 (real estate) | corecompliance.si 13 (regtech) | Below: clearrisk 8, clearverify 8, aegisrisk 8
