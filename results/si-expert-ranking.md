@@ -128,3 +128,10 @@ cleartrust.si 30 (!! trust/fintech/identity — very high count incl. .capital .
 titanholdings.si 20 | novamarkets.si 17 | swiftlaw.si 17 (legal-tech) | nexusventures.si 16 (.ai unknown) | alphaholdings.si 15 | novalaw.si 14 | novalegal.si 14 | eliteventures.si 13
 Below rule: sigmatrust 11, elitetrust 11, terratrust 11, trueasset 11, trueventures 10, blueventures 10, corefund 10, apexlegal 10, atlasmarkets 9, truelaw 9, truemarkets 8, silvertrust 8
 eliteproperties.si 20 (real estate) | corecompliance.si 13 (regtech) | Below: clearrisk 8, clearverify 8, aegisrisk 8
+
+## Added 11:40 (data/media/sports; .si free (confirmed twice), .ai taken (pipeline check); Ext of 88)
+elitesports.si 26 (sports/betting/fitness money — Tier A) | atlasstudios.si 23 (games/film) | meridianlabs.si 23 (R&D/biotech/AI) |
+apexsports.si 22 | apexstudios.si 21 | primeanalytics.si 21 (data/AI) | auraworks.si 18 | titanmedia.si 16 | coreanalytics.si 15 |
+apexgames.si 14 | atlasintel.si 12
+Wellness hits (.si free, counts pending): apexdental apexfitness atlasfitness corefitness truewellness crowndental novadental astravision truenutrition clearwellness
+Data/gaming hits (counts pending): titangames astragames aegisintel apexanalytics atlasanalytics auradata alphastudios nexusanalytics vectoranalytics novasports crownlabs
