@@ -161,3 +161,8 @@ Skipped: oceangate (Titan submersible disaster association)
 ironpulse.si 32 (!! highest new count) | skypulse.si 29 (enters TOP 20 #13) | skylogic.si 22 | bluematrix.si 21 (⚠ BlueMatrix US software co.) |
 starpulse.si 20 | solarpulse.si 20 | skymatrix.si 18 | skystack.si 15 | greensignal.si 14 | solarsense.si 13
 Below: sunsphere 11, lunarwave 11, ironsignal 9
+
+## Added 14:00 (.si free (confirmed twice), .ai taken)
+echosphere.si 30 (!! audio/media/AR brandable) | echopulse.si 28 | neonpulse.si 23 | vectorpath.si 18 | steelpulse.si 17 | firepulse.si 17 | lightlogic.si 16 |
+echologic.si 15 | horizonpulse.si 15 | firelogic.si 14 | carbonpulse.si 14 (⚠ Carbon Pulse = climate-news site) | Below: shadowlogic 8, cascadeflow 8
+Dropped: lightvision (404 then Registered — inconsistent)
