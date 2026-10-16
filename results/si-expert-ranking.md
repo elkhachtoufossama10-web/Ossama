@@ -66,3 +66,7 @@ stormgrid.si 19 | stonegrid.si 19 | swifttrade.si 18 | silvermarket.si 18 | gran
 swiftmarket.si 16 | nexahealth.si 16 | silverbank.si 15 | elitesystems.si 14 | omegatrade.si 13 | luxenergy.si 13 | brightpower.si 13 |
 brighthealth.si 13 (⚠ Bright Health Group, US insurer — avoid)
 Below rule: grandmotors 11, clearfund 11, voxvault 10, smartindustries 10, thetacapital 9, jadehealth 7
+
+## Added 09:10 (check-in #9)
+luminacare.si 29 | clearcare.si 22 | elitemed.si 19 | wavecapital.si 16 | optimahealth.si 15 | omegacare.si 14
+Below rule: crystalcare 11, boldhealth 9, virtuscapital 8, owlcare 8
