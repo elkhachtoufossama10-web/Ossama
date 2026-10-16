@@ -82,3 +82,10 @@ peptidehealth helixresearch cardiohealth curahealth oncomed evomed apexmed prime
 primeresearch theramed theragen stemgen oncohealth generx novaresearch medicell curalabs apexresearch apexgen therahealth celllabs
 Taken on .si: stemcell celltherapy immunotherapy genetherapy neurosciences novamed novahealth novagen novabio micromed
 microlabs microbio evolabs medigen evogen apexhealth medilabs medihealth medicure dermamed axonhealth apexpharma immunogen curamed cardiomed cellhealth microgen
+
+## Added 09:55 (biotech + premium counts; .si free (confirmed twice), .ai taken; Ext of 88)
+BIOTECH: novacell.si 23 (cell therapy — top biotech find) | regenhealth.si 18 | cardiohealth.si 18 | apexmed.si 18 | apexresearch.si 18 |
+novaresearch.si 16 | peptidehealth.si 15 (peptides/GLP-1 trend) | evomed.si 15 | primerx.si 15 | stemlabs.si 14 | oncomed.si 13 | curahealth.si 12 | apexgen.si 12
+Below rule: helixresearch 10, evohealth 10, medicell 8, curalabs 8
+PREMIUM: sparkgrid.si 19 (energy grid) | sparkenergy.si 19 (⚠ "Spark Energy" US retail power brand — moderate TM risk)
+Deeptech hits (.si free, .ai taken, counts pending): coredynamics apexautomation apexfusion apexmobility corerobotics apexdrones titanautomation
