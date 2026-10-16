@@ -146,3 +146,7 @@ keystonelabs.si 16 | summitstudios.si 14 | Below: pinnaclelabs 11, onyxstudios 1
 Skipped for TM: meta* (Meta Platforms), geotrust (DigiCert SSL brand)
 zencare.si 23 (health/wellness — Tier A, short brandable) | cyberdynamics.si 17 (cyber/robotics; Terminator 'Cyberdyne' echo) | polygrid.si 14 (.energy .solar) | astrohealth.si 13 | Below: kinetichealth 11, omnisecurity 11
 polyforge.si 23 (manufacturing/3D/industrial) | zencapital.si 14 | astrocare.si 14 | zenenergy.si 13 | geoanalytics.si 13 | Below: zentrust 11, polyvault 11, kineticsystems 11, stratolabs 9, aeroledger 6
+
+## Added 13:00 (tech-suffix; .si free (confirmed twice), .ai taken)
+terrapulse.si 28 (!! climate/earth data — enters TOP 20 at #14) | swiftbridge.si 25 (⚠ SWIFT network echo) | nexusgate.si 22 | atlasbridge.si 20 | clearport.si 20 (.ai unknown) | Below: atlasbrain 9
+Market note: short nova/zen/core+tech combos are being registered now (novaflow.si 2026-09-26).
