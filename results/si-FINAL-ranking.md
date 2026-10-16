@@ -5,7 +5,7 @@ All: .si free when checked (registry "not found" twice), .ai taken, Ext = regist
 ## Excluded industries (owner rule)
 No mortgage, loans/lending/credit, betting/gambling/casino, adult, alcohol, tobacco/vape or cannabis names are searched or ranked.
 
-## Top 20 — updated 16 Oct 2026 12:00 UTC (rank = market value & demand, not count alone)
+## Top 20 — updated 16 Oct 2026 12:50 UTC (rank = market value & demand, not count alone)
 1  eaglevision.si      33  drones / defense / computer vision
 2  aegiscore.si        25  cybersecurity / defense
 3  aerohub.si          26  aerospace / drones
@@ -28,7 +28,7 @@ No mortgage, loans/lending/credit, betting/gambling/casino, adult, alcohol, toba
 20 apexsecurity.si     20  cybersecurity
 
 ## Tier A — strong (16 Oct additions in bold)
-**elitesports 26** (sports/fitness only), **regenhealth 18** (biotech), **auraenergy 21**, **novawealth 21**, **swiftwater 21** (water tech), **auracloud 20**,
+**elitesports 26** (sports/fitness only), **zencare 23**, **polyforge 23**, **cyberdynamics 17**, **keystonelabs 16**, **regenhealth 18** (biotech), **auraenergy 21**, **novawealth 21**, **swiftwater 21** (water tech), **auracloud 20**,
 **primeanalytics 21**, **apexanalytics 20**, **meridianlabs 23**, **atlasstudios 23** (games/film), **apexsports 22**, **apexstudios 21**,
 **titanholdings 20**, **corefitness 25**, **truewellness 23**, **novadental 20**, **apexfitness 20**, **eaglesecurity 19**, **sparkgrid 19**,
 **cardiohealth 18**, **apexmed 18**, **apexresearch 18**, **coredynamics 18**, **novasports 19**, **embervault 19**, **auramed 19**, **eliteproperties 20**,
