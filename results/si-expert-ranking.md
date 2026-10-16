@@ -70,3 +70,15 @@ Below rule: grandmotors 11, clearfund 11, voxvault 10, smartindustries 10, theta
 ## Added 09:10 (check-in #9)
 luminacare.si 29 | clearcare.si 22 | elitemed.si 19 | wavecapital.si 16 | optimahealth.si 15 | omegacare.si 14
 Below rule: crystalcare 11, boldhealth 9, virtuscapital 8, owlcare 8
+
+## Added 10:20 (check-in #10; .si free (confirmed twice), .ai taken; Ext of 88)
+bluemarket.si 22 | bluecare.si 20 (⚠ "BlueCare" = BlueCross BlueShield Tennessee plan — avoid) | wolfguard.si 19 (security) |
+regenhealth.si 18 (biotech/regenerative medicine — strong) | swiftgrid.si 15 | stormvault.si 15 | waveguard.si 14 | whitecare.si 14 |
+stemlabs.si 14 (biotech) | wavegrid.si 13 | stoneshield.si 13 | wavecare.si 12
+Below rule: silverpower 11, wavetrade 10, veritashealth 10, silvertrade 10, sigmahealth 8, stonepower 7
+
+## Biotech family (10:20) — .si free (confirmed twice), .ai taken, counts in progress
+peptidehealth helixresearch cardiohealth curahealth oncomed evomed apexmed primerx novacell evohealth dermagen
+primeresearch theramed theragen stemgen oncohealth generx novaresearch medicell curalabs apexresearch apexgen therahealth celllabs
+Taken on .si: stemcell celltherapy immunotherapy genetherapy neurosciences novamed novahealth novagen novabio micromed
+microlabs microbio evolabs medigen evogen apexhealth medilabs medihealth medicure dermamed axonhealth apexpharma immunogen curamed cardiomed cellhealth microgen
