@@ -176,3 +176,7 @@ Dropped (inconsistent double-check): prismlogic, vividmind. Skipped TM: radiantl
 ## Added 14:50 (soft brandables; .si free (confirmed twice), .ai taken)
 aquasphere.si 27 (water tech) | aquapulse.si 25 | aqualogic.si 22 (⚠ AquaLogic = Hayward pool-controller product line — moderate TM) | vitapulse.si 20 (health) |
 vitalogic.si 12 | quantawave.si 12 | Below: irisflow 11, quantasphere 9, opalstack 9 (Opalstack hosting co.), gaiasphere 8
+
+## Added 15:05 (.si free (confirmed twice), .ai taken)
+echocloud.si 24 | vividai.si 22 (AI brandable) | echogrid.si 19 | prismcloud.si 17 | echosystems.si 17 | halocare.si 15 | echohealth.si 15 | echocare.si 15
+Below: radiantai 10, neonhealth 9 (.ai unknown)
