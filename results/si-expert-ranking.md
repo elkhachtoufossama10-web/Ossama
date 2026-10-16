@@ -114,3 +114,11 @@ HEALTH: meridianmedical.si 13. Below: cedarhealth 9
 Note: compute/AI .si names are being registered right now (alphacompute.si registered 2026-10-06; sovereigncloud, sovereignintelligence, atlasintelligence, corecloud, bluechips all taken).
 blueharvest.si 29 (agritech/food/aquaculture — very high count; ⚠ "Blue Harvest Fisheries" US seafood brand — moderate TM risk) | swiftwater.si 21 (water tech) | Below: ironcyber 7
 primeinsurance.si 15 (insurance) | corewealth.si 13 | Below: clearinsurance 8
+
+## Added 11:00 (.si free (confirmed twice), .ai taken; Ext of 88)
+atlasventures.si 25 (VC/venture — Tier A; ⚠ "Atlas Venture" is a well-known Boston biotech VC — moderate/high TM risk) |
+auraenergy.si 21 (energy — Tier A) | coreenergy.si 15 | apexexchange.si 14. Below: bluehydrogen 7
+Legal-tech/compliance hits (.si free, counts pending): novalaw swiftlaw truelaw apexlegal novalegal clearrisk corecompliance clearverify aegisrisk eliteproperties
+Investment hits (counts pending): novamarkets nexusventures eliteventures titanholdings cleartrust sigmatrust trueventures truemarkets blueventures atlasmarkets alphaholdings corefund elitetrust silvertrust terratrust trueasset clearassets
+Taken on .si: coregrid corepower corecapital primetrust coretrust primeassets irontrust anchortrust novatrust alphaventures alphatrust coreasset trueidentity
+Mobility family (EV/robotaxi/fleet/ports/aviation): 0 candidates passed the .com+core+.ai filter.
