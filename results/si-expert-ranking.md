@@ -140,3 +140,7 @@ corefitness.si 25 (⚠ 'Core Fitness' common gym name) | truewellness.si 23 | ap
 
 ## RULE (16 Oct 12:00, from owner): exclude mortgage, loans/lending/credit, betting/gambling, adult, alcohol, tobacco/vape, cannabis.
 Dropped from consideration: clearcredit, novacredit, primecredit, primeinsurance, clearinsurance, opusone (winery). EliteSports kept only as sports/fitness (no betting angle).
+
+## Added 12:20 (new prefixes; .si free (confirmed twice), .ai taken)
+keystonelabs.si 16 | summitstudios.si 14 | Below: pinnaclelabs 11, onyxstudios 11, fusionanalytics 8, granitelabs 8, horizonanalytics 6
+Skipped for TM: meta* (Meta Platforms), geotrust (DigiCert SSL brand)
