@@ -137,3 +137,6 @@ Wellness hits (.si free, counts pending): apexdental apexfitness atlasfitness co
 Data/gaming hits (counts pending): titangames astragames aegisintel apexanalytics atlasanalytics auradata alphastudios nexusanalytics vectoranalytics novasports crownlabs
 apexanalytics.si 20 (data/AI) | novasports.si 19 | titangames.si 14 | atlasanalytics.si 14 | alphastudios.si 14 | crownlabs.si 14 | vectoranalytics.si 13 | auradata.si 12 | nexusanalytics.si 12 | Below: astragames 11, aegisintel 8
 corefitness.si 25 (⚠ 'Core Fitness' common gym name) | truewellness.si 23 | apexfitness.si 20 | novadental.si 20 (.clinic taken) | apexdental.si 16 | atlasfitness.si 15 | crowndental.si 15 | truenutrition.si 12 | Below: astravision 10, clearwellness 8
+
+## RULE (16 Oct 12:00, from owner): exclude mortgage, loans/lending/credit, betting/gambling, adult, alcohol, tobacco/vape, cannabis.
+Dropped from consideration: clearcredit, novacredit, primecredit, primeinsurance, clearinsurance, opusone (winery). EliteSports kept only as sports/fitness (no betting angle).

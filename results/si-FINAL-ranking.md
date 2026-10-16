@@ -2,6 +2,9 @@
 All: .si free when checked (registry "not found" twice), .ai taken, Ext = registered of 88 checkable extensions
 (dotDB totals ~5–10 higher: .de .io .co .eu .ch .es .se .it not countable). Re-check before buying.
 
+## Excluded industries (owner rule)
+No mortgage, loans/lending/credit, betting/gambling/casino, adult, alcohol, tobacco/vape or cannabis names are searched or ranked.
+
 ## Top 20 — updated 16 Oct 2026 12:00 UTC (rank = market value & demand, not count alone)
 1  eaglevision.si      33  drones / defense / computer vision
 2  aegiscore.si        25  cybersecurity / defense
@@ -22,10 +25,10 @@ All: .si free when checked (registry "not found" twice), .ai taken, Ext = regist
 17 clearledger.si      24  fintech
 18 sovereignwealth.si  22  wealth / sovereign funds
 19 apexinvest.si       23  investing
-20 elitesports.si      26  sports / betting / fitness
+20 apexsecurity.si     20  cybersecurity
 
 ## Tier A — strong (16 Oct additions in bold)
-**apexsecurity 20**, **regenhealth 18** (biotech), **auraenergy 21**, **novawealth 21**, **swiftwater 21** (water tech), **auracloud 20**,
+**elitesports 26** (sports/fitness only), **regenhealth 18** (biotech), **auraenergy 21**, **novawealth 21**, **swiftwater 21** (water tech), **auracloud 20**,
 **primeanalytics 21**, **apexanalytics 20**, **meridianlabs 23**, **atlasstudios 23** (games/film), **apexsports 22**, **apexstudios 21**,
 **titanholdings 20**, **corefitness 25**, **truewellness 23**, **novadental 20**, **apexfitness 20**, **eaglesecurity 19**, **sparkgrid 19**,
 **cardiohealth 18**, **apexmed 18**, **apexresearch 18**, **coredynamics 18**, **novasports 19**, **embervault 19**, **auramed 19**, **eliteproperties 20**,
@@ -44,6 +47,6 @@ novadrive 22, orbitworks 21, veritasai 21, tigerdata 19, wolflabs 18, wavecloud 
 ## Watch (strong count, single-company / trademark risk)
 blueharvest 29 (Blue Harvest Fisheries), atlasventures 25 (Atlas Venture VC), bluewallet 22 (BlueWallet BTC app — avoid), crowncapital 20 (Crown Capital Partners),
 sparkenergy 19 (Spark Energy US), bluecare 20 (BlueCare TN plan — avoid),
-westcare 39 (US WestCare), opusone 23 (Opus One winery), lexmarket 18 (Lexmark), energyvault 16 (Energy Vault),
+westcare 39 (US WestCare), lexmarket 18 (Lexmark), energyvault 16 (Energy Vault),
 redbank 23, wolfcapital 22, tigercapital 19, brighthealth 13 (Bright Health), stormguard 15, galaxyhub 15, fusioncloud 15,
 apolloai 18, apollohealth 18, sentinellabs 15, blackpower 22 (political connotation)
