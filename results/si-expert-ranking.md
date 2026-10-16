@@ -156,3 +156,8 @@ primetechnologies.si 20 | novatechnologies.si 18 | atlastechnologies.si 16 | swi
 Below: coremedical 11, primenetworks 10 (.ai unknown), brightdefense 9, atlasinnovations 6
 Nature-tech hits (counts pending): skypulse starpulse solarpulse ironpulse skylogic solarsense bluematrix skymatrix skystack sunsphere greensignal ironsignal lunarwave
 Skipped: oceangate (Titan submersible disaster association)
+
+## Added 13:25 (nature-tech; .si free (confirmed twice), .ai taken)
+ironpulse.si 32 (!! highest new count) | skypulse.si 29 (enters TOP 20 #13) | skylogic.si 22 | bluematrix.si 21 (⚠ BlueMatrix US software co.) |
+starpulse.si 20 | solarpulse.si 20 | skymatrix.si 18 | skystack.si 15 | greensignal.si 14 | solarsense.si 13
+Below: sunsphere 11, lunarwave 11, ironsignal 9

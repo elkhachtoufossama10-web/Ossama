@@ -5,7 +5,7 @@ All: .si free when checked (registry "not found" twice), .ai taken, Ext = regist
 ## Excluded industries (owner rule)
 No mortgage, loans/lending/credit, betting/gambling/casino, adult, alcohol, tobacco/vape or cannabis names are searched or ranked.
 
-## Top 20 — updated 16 Oct 2026 13:00 UTC (rank = market value & demand, not count alone)
+## Top 20 — updated 16 Oct 2026 13:25 UTC (rank = market value & demand, not count alone)
 1  eaglevision.si      33  drones / defense / computer vision
 2  aegiscore.si        25  cybersecurity / defense
 3  aerohub.si          26  aerospace / drones
@@ -18,17 +18,17 @@ No mortgage, loans/lending/credit, betting/gambling/casino, adult, alcohol, toba
 10 nexuslink.si        27  AI networking / data centers
 11 trueledger.si       20  fintech (.finance taken)
 12 cleartrust.si       30  trust / identity / fintech (old RSA product name — low TM risk)
-13 apexautomation.si   24  industrial automation / robotics
-14 terrapulse.si       28  climate / earth-data / IoT brandable
-15 elitehealth.si      26  health
-16 novacell.si         23  biotech — cell therapy
-17 luminacare.si       29  health
-18 clearledger.si      24  fintech
-19 sovereignwealth.si  22  wealth / sovereign funds
-20 apexinvest.si       23  investing
+13 skypulse.si         29  aviation / weather / drone-data brandable (incl. .bio .kr .fr)
+14 apexautomation.si   24  industrial automation / robotics
+15 terrapulse.si       28  climate / earth-data / IoT brandable
+16 elitehealth.si      26  health
+17 novacell.si         23  biotech — cell therapy
+18 luminacare.si       29  health
+19 clearledger.si      24  fintech
+20 sovereignwealth.si  22  wealth / sovereign funds
 
 ## Tier A — strong (16 Oct additions in bold)
-**apexsecurity 20**, **swiftbridge 25** (⚠ SWIFT network echo in finance), **nexusgate 22**, **atlasbridge 20**, **clearport 20** (.ai unknown), **elitesports 26** (sports/fitness only), **zencare 23**, **polyforge 23**, **cyberdynamics 17**, **keystonelabs 16**, **regenhealth 18** (biotech), **auraenergy 21**, **novawealth 21**, **swiftwater 21** (water tech), **auracloud 20**,
+**ironpulse 32** (fitness/industrial brandable), **skylogic 22**, **apexinvest 23**, **apexsecurity 20**, **bluematrix 21** (⚠ BlueMatrix US research-software co.), **starpulse 20**, **solarpulse 20**, **primetechnologies 20**, **swiftbridge 25** (⚠ SWIFT network echo in finance), **nexusgate 22**, **atlasbridge 20**, **clearport 20** (.ai unknown), **elitesports 26** (sports/fitness only), **zencare 23**, **polyforge 23**, **cyberdynamics 17**, **keystonelabs 16**, **regenhealth 18** (biotech), **auraenergy 21**, **novawealth 21**, **swiftwater 21** (water tech), **auracloud 20**,
 **primeanalytics 21**, **apexanalytics 20**, **meridianlabs 23**, **atlasstudios 23** (games/film), **apexsports 22**, **apexstudios 21**,
 **titanholdings 20**, **corefitness 25**, **truewellness 23**, **novadental 20**, **apexfitness 20**, **eaglesecurity 19**, **sparkgrid 19**,
 **cardiohealth 18**, **apexmed 18**, **apexresearch 18**, **coredynamics 18**, **novasports 19**, **embervault 19**, **auramed 19**, **eliteproperties 20**,
