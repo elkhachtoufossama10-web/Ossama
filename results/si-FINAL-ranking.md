@@ -2,23 +2,39 @@
 All: .si free when checked (registry "not found" twice), .ai taken, Ext = registered of 88 checkable extensions
 (dotDB totals ~5–10 higher: .de .io .co .eu .ch .es .se .it not countable). Re-check before buying.
 
-## Tier S — register first
-1  eaglevision.si   33  drones / defense / computer vision
-2  aegiscore.si     25  cybersecurity / defense
-3  aerohub.si       26  aerospace / drones
-4  silvercare.si    33  elder-care (aging market)
-5  skyenergy.si     23  energy (strongest developed-market demand)
-6  terragrid.si     23  AI power grid
-7  atlasforge.si    27  AI / industrial brand
-8  bluevault.si     26  security / fintech
-9  nexuslink.si     27  AI networking / data centers
-10 trueledger.si    20  fintech (.finance taken)
+## Top 20 — updated 16 Oct 2026 12:00 UTC (rank = market value & demand, not count alone)
+1  eaglevision.si      33  drones / defense / computer vision
+2  aegiscore.si        25  cybersecurity / defense
+3  aerohub.si          26  aerospace / drones
+4  silvercare.si       33  elder-care (aging market)
+5  apexdrones.si       25  drones / defense (Anduril-era demand)
+6  skyenergy.si        23  energy
+7  terragrid.si        23  AI power grid
+8  atlasforge.si       27  AI / industrial brand
+9  bluevault.si        26  security / fintech
+10 nexuslink.si        27  AI networking / data centers
+11 trueledger.si       20  fintech (.finance taken)
+12 cleartrust.si       30  trust / identity / fintech (old RSA product name — low TM risk)
+13 apexautomation.si   24  industrial automation / robotics
+14 elitehealth.si      26  health
+15 novacell.si         23  biotech — cell therapy
+16 luminacare.si       29  health
+17 clearledger.si      24  fintech
+18 sovereignwealth.si  22  wealth / sovereign funds
+19 apexinvest.si       23  investing
+20 elitesports.si      26  sports / betting / fitness
 
-## Tier A — strong
-11 elitehealth.si 26 | 12 luminacare.si 29 | 13 clearledger.si 24 | 14 zenithcapital.si 22 | 15 elitecapital.si 21 |
-16 brightgrid.si 22 | 17 carbonexchange.si 20 | 18 sentinelcore.si 19 | 19 swiftcare.si 21 | 20 elitecare.si 25 |
-21 powerwave.si 22 | 22 nexacloud.si 23 | 23 clearcare.si 22 | 24 clearhealth.si 20 | 25 blackledger.si 21 |
-26 diamondexchange.si 23 | 27 tigerexchange.si 22 | 28 oceancapital.si 21 | 29 glasscore.si 14 (chips/.si fit) | 30 geocloud.si 21
+## Tier A — strong (16 Oct additions in bold)
+**apexsecurity 20**, **regenhealth 18** (biotech), **auraenergy 21**, **novawealth 21**, **swiftwater 21** (water tech), **auracloud 20**,
+**primeanalytics 21**, **apexanalytics 20**, **meridianlabs 23**, **atlasstudios 23** (games/film), **apexsports 22**, **apexstudios 21**,
+**titanholdings 20**, **corefitness 25**, **truewellness 23**, **novadental 20**, **apexfitness 20**, **eaglesecurity 19**, **sparkgrid 19**,
+**cardiohealth 18**, **apexmed 18**, **apexresearch 18**, **coredynamics 18**, **novasports 19**, **embervault 19**, **auramed 19**, **eliteproperties 20**,
+zenithcapital 22, elitecapital 21, brightgrid 22, carbonexchange 20, sentinelcore 19, swiftcare 21, elitecare 25, powerwave 22,
+nexacloud 23, clearcare 22, clearhealth 20, blackledger 21, diamondexchange 23, tigerexchange 22, oceancapital 21, glasscore 14, geocloud 21
+
+## Biotech (requested) — .si free, .ai taken
+novacell 23, regenhealth 18, cardiohealth 18, apexmed 18, apexresearch 18, novaresearch 16, peptidehealth 15, evomed 15, primerx 15,
+nexusresearch 15, terragen 15, stemlabs 14, stellarhealth 14, oncomed 13, primeresearch 13, meridianmedical 13, dermagen 12, theramed 12, generx 12, curahealth 12, apexgen 12
 
 ## Tier B — good holds
 launchforge 24, orbitforge 25, atlaslogistics 20, clearvault 20, nexacare 22, ravenlabs 24, fireforge 22, elitemed 19,
@@ -26,6 +42,8 @@ stormgrid 19, stonegrid 19, swifttrade 18, silvermarket 18, grandexchange 18, so
 novadrive 22, orbitworks 21, veritasai 21, tigerdata 19, wolflabs 18, wavecloud 18, horizonsystems 20, jetcloud 20
 
 ## Watch (strong count, single-company / trademark risk)
+blueharvest 29 (Blue Harvest Fisheries), atlasventures 25 (Atlas Venture VC), bluewallet 22 (BlueWallet BTC app — avoid), crowncapital 20 (Crown Capital Partners),
+sparkenergy 19 (Spark Energy US), bluecare 20 (BlueCare TN plan — avoid),
 westcare 39 (US WestCare), opusone 23 (Opus One winery), lexmarket 18 (Lexmark), energyvault 16 (Energy Vault),
 redbank 23, wolfcapital 22, tigercapital 19, brighthealth 13 (Bright Health), stormguard 15, galaxyhub 15, fusioncloud 15,
 apolloai 18, apollohealth 18, sentinellabs 15, blackpower 22 (political connotation)
