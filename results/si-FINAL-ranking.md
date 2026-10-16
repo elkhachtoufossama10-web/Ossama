@@ -5,7 +5,7 @@ All: .si free when checked (registry "not found" twice), .ai taken, Ext = regist
 ## Excluded industries (owner rule)
 No mortgage, loans/lending/credit, betting/gambling/casino, adult, alcohol, tobacco/vape or cannabis names are searched or ranked.
 
-## Top 20 — updated 16 Oct 2026 14:20 UTC (rank = market value & demand, not count alone)
+## Top 20 — updated 16 Oct 2026 16:30 UTC (rank = market value & demand, not count alone)
 1  eaglevision.si      33  drones / defense / computer vision
 2  aegiscore.si        25  cybersecurity / defense
 3  aerohub.si          26  aerospace / drones
@@ -28,7 +28,7 @@ No mortgage, loans/lending/credit, betting/gambling/casino, adult, alcohol, toba
 20 clearledger.si      24  fintech
 
 ## Tier A — strong (16 Oct additions in bold)
-**ironpulse 32** (fitness/industrial brandable), **sovereignwealth 22**, **aquasphere 27** (water tech), **echocloud 24**, **vividai 22**, **geosense 24**, **medisphere 21**, **hydropulse 20**, **aquapulse 25**, **vitapulse 20**, **lumenpath 26**, **pixelvision 24**, **prismflow 20**, **signalpulse 19**, **echosphere 30** (audio/media/AR), **echopulse 28**, **neonpulse 23**, **skylogic 22**, **apexinvest 23**, **apexsecurity 20**, **bluematrix 21** (⚠ BlueMatrix US research-software co.), **starpulse 20**, **solarpulse 20**, **primetechnologies 20**, **swiftbridge 25** (⚠ SWIFT network echo in finance), **nexusgate 22**, **atlasbridge 20**, **clearport 20** (.ai unknown), **elitesports 26** (sports/fitness only), **zencare 23**, **polyforge 23**, **cyberdynamics 17**, **keystonelabs 16**, **regenhealth 18** (biotech), **auraenergy 21**, **novawealth 21**, **swiftwater 21** (water tech), **auracloud 20**,
+**ironpulse 32** (fitness/industrial brandable), **skynest 29**, **pixelverse 28**, **terraverse 22**, **sovereignwealth 22**, **aquasphere 27** (water tech), **echocloud 24**, **vividai 22**, **geosense 24**, **medisphere 21**, **hydropulse 20**, **aquapulse 25**, **vitapulse 20**, **lumenpath 26**, **pixelvision 24**, **prismflow 20**, **signalpulse 19**, **echosphere 30** (audio/media/AR), **echopulse 28**, **neonpulse 23**, **skylogic 22**, **apexinvest 23**, **apexsecurity 20**, **bluematrix 21** (⚠ BlueMatrix US research-software co.), **starpulse 20**, **solarpulse 20**, **primetechnologies 20**, **swiftbridge 25** (⚠ SWIFT network echo in finance), **nexusgate 22**, **atlasbridge 20**, **clearport 20** (.ai unknown), **elitesports 26** (sports/fitness only), **zencare 23**, **polyforge 23**, **cyberdynamics 17**, **keystonelabs 16**, **regenhealth 18** (biotech), **auraenergy 21**, **novawealth 21**, **swiftwater 21** (water tech), **auracloud 20**,
 **primeanalytics 21**, **apexanalytics 20**, **meridianlabs 23**, **atlasstudios 23** (games/film), **apexsports 22**, **apexstudios 21**,
 **titanholdings 20**, **corefitness 25**, **truewellness 23**, **novadental 20**, **apexfitness 20**, **eaglesecurity 19**, **sparkgrid 19**,
 **cardiohealth 18**, **apexmed 18**, **apexresearch 18**, **coredynamics 18**, **novasports 19**, **embervault 19**, **auramed 19**, **eliteproperties 20**,

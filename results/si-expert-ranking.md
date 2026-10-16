@@ -192,3 +192,8 @@ Below: gigasphere 8, ampstack 7, wattstack 7
 Security brandables hits (counts pending): vaultstack vaultlogic shieldstack securesense securepulse guardstack vaultsignal vaultflow trustlogic shieldpath
 Skipped TM: trustwave (cyber co.), securesphere (Imperva product), trustpulse (marketing plugin)
 securepulse.si 16 | vaultflow.si 15 | vaultstack.si 12 | vaultlogic.si 12 | trustlogic.si 12 | Below: securesense 11, shieldstack 10, shieldpath 9, guardstack 8, vaultsignal 8
+
+## Added 16:30 (winners × new suffixes; .si free (confirmed twice), .ai taken)
+skynest.si 29 (proptech/smart-home/drone-hub brandable) | pixelverse.si 28 (⚠ PixelVerse crypto game — low TM) | terraverse.si 22 (.eco) | pixelhive.si 21 |
+echocore.si 20 | ironnest.si 20 | aeroverse.si 19 | skyloop.si 19 | lumencraft.si 18 | echoloop.si 16 | skyhive.si 15 (⚠ SkyHive AI workforce co.) | geoverse.si 14 | geonest.si 13
+Skipped TM: echonest (Spotify), ecoflow
