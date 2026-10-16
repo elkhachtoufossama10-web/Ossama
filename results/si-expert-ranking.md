@@ -89,3 +89,10 @@ novaresearch.si 16 | peptidehealth.si 15 (peptides/GLP-1 trend) | evomed.si 15 |
 Below rule: helixresearch 10, evohealth 10, medicell 8, curalabs 8
 PREMIUM: sparkgrid.si 19 (energy grid) | sparkenergy.si 19 (⚠ "Spark Energy" US retail power brand — moderate TM risk)
 Deeptech hits (.si free, .ai taken, counts pending): coredynamics apexautomation apexfusion apexmobility corerobotics apexdrones titanautomation
+
+## Added 10:00 (deeptech + premium + biotech; .si free (confirmed twice), .ai taken; Ext of 88)
+DEEPTECH: apexdrones.si 25 (drones/defense — hot sector, Tier A) | apexautomation.si 24 (industrial automation, Tier A) |
+coredynamics.si 18 | apexmobility.si 15 | apexfusion.si 12. Below rule: corerobotics 9, titanautomation 9
+FINANCE: sovereignwealth.si 22 (Tier A) | crowncapital.si 20 (⚠ "Crown Capital Partners" Canadian fund — moderate TM risk). Below: sovereignledger 9
+HEALTH: compasshealth.si 15 | anchorhealth.si 15 | vistacare.si 13. Below: emberhealth 9
+BIOTECH: dermagen.si 12 | theramed.si 12. Below: theragen 11, oncohealth 9, stemgen 5, therahealth 9, celllabs 10
