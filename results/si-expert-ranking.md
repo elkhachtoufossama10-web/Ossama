@@ -191,3 +191,4 @@ powerpath.si 20 (.ai unknown this count) | nanopulse.si 14 | ampflow.si 14 | gri
 Below: gigasphere 8, ampstack 7, wattstack 7
 Security brandables hits (counts pending): vaultstack vaultlogic shieldstack securesense securepulse guardstack vaultsignal vaultflow trustlogic shieldpath
 Skipped TM: trustwave (cyber co.), securesphere (Imperva product), trustpulse (marketing plugin)
+securepulse.si 16 | vaultflow.si 15 | vaultstack.si 12 | vaultlogic.si 12 | trustlogic.si 12 | Below: securesense 11, shieldstack 10, shieldpath 9, guardstack 8, vaultsignal 8
