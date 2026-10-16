@@ -113,3 +113,4 @@ CLOUD/SPACE: auracloud.si 20 | swiftlaunch.si 14. Below: bluemars 11 (.ai unknow
 HEALTH: meridianmedical.si 13. Below: cedarhealth 9
 Note: compute/AI .si names are being registered right now (alphacompute.si registered 2026-10-06; sovereigncloud, sovereignintelligence, atlasintelligence, corecloud, bluechips all taken).
 blueharvest.si 29 (agritech/food/aquaculture — very high count; ⚠ "Blue Harvest Fisheries" US seafood brand — moderate TM risk) | swiftwater.si 21 (water tech) | Below: ironcyber 7
+primeinsurance.si 15 (insurance) | corewealth.si 13 | Below: clearinsurance 8
