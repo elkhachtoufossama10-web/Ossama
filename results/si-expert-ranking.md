@@ -47,3 +47,10 @@ nextguard.si 14 (cyber) | swiftguard.si 13 (security)
 ## Added 05:10 (check-in #5, .si free at check, .ai taken)
 westcare.si 39 (!! highest count found; incl. .health .care .clinic — likely one company's defensive portfolio, e.g. US "WestCare" → strong single buyer but check trademark) |
 swiftcare.si 21 (.health .clinic) | tigerdata.si 19 | wolflabs.si 18 | wavecloud.si 18 | truemarket.si 16 | wavehealth.si 13 (.care .clinic)
+
+## Added 06:40 (check-in #6; .si free (confirmed twice), .ai taken; Ext of 88)
+silvercare.si 33 (elder-care / aging market — Tier S candidate) | clearledger.si 24 (fintech — Tier A) | elitecare.si 25 (health) |
+ravenlabs.si 24 | redbank.si 23 (⚠ banks named "Red Bank" exist) | nexacare.si 22 (health) | fireforge.si 22 | clearvault.si 20 (fintech/security) |
+bluedrive.si 20 | ravenforge.si 20 | deltasystems.si 19 | peakforge.si 19 | elitevault.si 18 | redvault.si 17 | deltacloud.si 17 |
+firesystems.si 17 | stormguard.si 15 (⚠ Stormguard brand exists) | clearguard.si 15 | owlvision.si 15 | onyxcloud.si 15 | diamondlabs.si 14
+Below rule: stoneguard 11, lexchain 9
