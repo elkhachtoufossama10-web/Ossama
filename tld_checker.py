@@ -23,9 +23,13 @@ from concurrent.futures import ThreadPoolExecutor
 
 BOOTSTRAP = "https://data.iana.org/rdap/dns.json"
 # Popular extensions used by --count (only those with an RDAP server are queried)
-COUNT_TLDS = ("com net org info biz ai app dev xyz online store tech shop site club live "
-              "pro io co me tv cc us uk nl fr ca de eu ch se no fi dk be pl cz sk "
-              "nz in jp kr br mx es pt it at").split()
+COUNT_TLDS = ("com net org info biz ai app dev xyz online store tech shop site club live pro tv cc uk nl fr ca "
+              "fi no pl cz au nz in kr br mx "
+              "energy solar finance capital network systems global world group company agency digital cloud "
+              "ventures partners space solutions services software technology tools works team academy design "
+              "studio media news health care clinic bio eco green fund money exchange trading market markets "
+              "ltd inc llc one top vip pro icu fun life world today email link click page blog "
+              "io co de eu ch es se it be at dk us me jp").split()  # no-RDAP ones are skipped automatically
 
 _servers = None
 
