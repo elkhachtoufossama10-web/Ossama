@@ -54,3 +54,8 @@ ravenlabs.si 24 | redbank.si 23 (⚠ banks named "Red Bank" exist) | nexacare.si
 bluedrive.si 20 | ravenforge.si 20 | deltasystems.si 19 | peakforge.si 19 | elitevault.si 18 | redvault.si 17 | deltacloud.si 17 |
 firesystems.si 17 | stormguard.si 15 (⚠ Stormguard brand exists) | clearguard.si 15 | owlvision.si 15 | onyxcloud.si 15 | diamondlabs.si 14
 Below rule: stoneguard 11, lexchain 9
+
+## Added 07:30 (check-in #7; .si free (confirmed twice), .ai taken; Ext of 88)
+wolfcapital.si 22 (⚠ several funds use "Wolf Capital") | tigerexchange.si 22 | elitecapital.si 21 (finance — Tier A) | tigercapital.si 19 (⚠ "Tiger Capital" funds exist) |
+foxcapital.si 16 | waveenergy.si 16 | bluefusion.si 15 | alpinecapital.si 14 | obsidianvault.si 14 | jadecapital.si 12 | peaklogistics.si 12
+Below rule: crystalenergy 11, eliteenergy 9
