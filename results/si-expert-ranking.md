@@ -96,3 +96,10 @@ coredynamics.si 18 | apexmobility.si 15 | apexfusion.si 12. Below rule: corerobo
 FINANCE: sovereignwealth.si 22 (Tier A) | crowncapital.si 20 (⚠ "Crown Capital Partners" Canadian fund — moderate TM risk). Below: sovereignledger 9
 HEALTH: compasshealth.si 15 | anchorhealth.si 15 | vistacare.si 13. Below: emberhealth 9
 BIOTECH: dermagen.si 12 | theramed.si 12. Below: theragen 11, oncohealth 9, stemgen 5, therahealth 9, celllabs 10
+
+## Added 10:15 (.si free (confirmed twice), .ai taken; Ext of 88)
+auramed.si 19 (health) | embervault.si 19 (security/storage) | nexusresearch.si 15 | terragen.si 15 (biotech/energy) |
+stellarhealth.si 14 | prismvault.si 14 | primeresearch.si 13 | generx.si 12 | sanahealth.si 12 | sparkhealth.si 12
+Below rule: salushealth 10, archealth 10 (.ai unknown), havencapital 9 (.ai unknown), ionhealth 8, cedarhealth/meridianmedical pending
+Finance hits (.si free, counts pending): novawealth clearwealth bluewallet apexinvest clearcredit apexpayments terrawealth novawallet elitewealth corepayments primeinsurance corewealth clearinsurance
+Taken on .si: novapay corepay truewealth sparkpay alphawealth novacredit nexuswealth corebanking astrapay primewealth primecredit ironwallet apexpay alphawallet
