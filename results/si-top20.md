@@ -20,12 +20,12 @@ Rule: .si free (registry "not found" twice), .ai taken. "Ext." = registered exte
 | 14 | skyenergy.si | 23 | Space solar / aviation energy |
 | 15 | launchforge.si | 24 | Space launch + startup accelerator |
 | 16 | blackledger.si | 21 | Crypto/fintech ledger (NEW) |
-| 17 | geocloud.si | 21 | Geospatial / satellite data |
-| 18 | oceancapital.si | 21 | Finance (NEW in top 20) |
-| 19 | westcapital.si | 19 | Finance (NEW) |
-| 20 | voxpay.si | 15 | AI voice payments |
+| 17 | glasscore.si | 14 | Glass-core chip substrates (Intel); perfect .si = silicon fit |
+| 18 | geocloud.si | 21 | Geospatial / satellite data |
+| 19 | oceancapital.si | 21 | Finance |
+| 20 | westcapital.si | 19 | Finance (NEW) |
 
-Next: orbitforge 25, oceandrive 25, novadrive 22, nexalink 22, blackpower 22, veritasai 21, orbitworks 21,
+Next: voxpay 15, frontierenergy 13, orbitforge 25, oceandrive 25, novadrive 22, nexalink 22, blackpower 22, veritasai 21, orbitworks 21,
 lumenworks 20, atlaslogistics 20, horizonsystems 20, jetcloud 20, powerguard 19, atomicworks 19, sentinelcore 19,
 zenithcloud 18, powerexchange 17, geogrid 17, cosmolabs 17, diamondpower 16, gridvision 16, polarcapital 14, deltahealth 14.
 Trademark risk (avoid): energyvault, fusioncloud, galaxyhub, apolloai, apollohealth, sentinellabs, opusone, lexmarket.
