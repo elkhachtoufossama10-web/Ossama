@@ -59,3 +59,10 @@ Below rule: stoneguard 11, lexchain 9
 wolfcapital.si 22 (⚠ several funds use "Wolf Capital") | tigerexchange.si 22 | elitecapital.si 21 (finance — Tier A) | tigercapital.si 19 (⚠ "Tiger Capital" funds exist) |
 foxcapital.si 16 | waveenergy.si 16 | bluefusion.si 15 | alpinecapital.si 14 | obsidianvault.si 14 | jadecapital.si 12 | peaklogistics.si 12
 Below rule: crystalenergy 11, eliteenergy 9
+
+## Added 08:20 (check-in #8; .si free (confirmed twice), .ai taken; Ext of 88)
+elitehealth.si 26 (health — Tier A) | brightgrid.si 22 (energy grid — Tier A) | clearhealth.si 20 | elitedrive.si 20 |
+stormgrid.si 19 | stonegrid.si 19 | swifttrade.si 18 | silvermarket.si 18 | grandexchange.si 18 | cleartrade.si 17 | brightfusion.si 17 |
+swiftmarket.si 16 | nexahealth.si 16 | silverbank.si 15 | elitesystems.si 14 | omegatrade.si 13 | luxenergy.si 13 | brightpower.si 13 |
+brighthealth.si 13 (⚠ Bright Health Group, US insurer — avoid)
+Below rule: grandmotors 11, clearfund 11, voxvault 10, smartindustries 10, thetacapital 9, jadehealth 7
