@@ -25,3 +25,8 @@ galaxyhub 15 (Samsung Galaxy), fusioncloud 15 (Oracle Fusion Cloud), energyvault
 ## Added 23:30 (late batch: eagle/phoenix/orion/helix/carbon)
 eaglevision.si 23 (new #1 by count) | carbonexchange.si 16 | orioncloud.si 13 | orionsystems.si 13 | phoenixenergy.si 13 |
 phoenixcloud.si 12 | phoenixhealth.si 12 | siriusenergy.si 12 | helixsystems.si 12
+
+## Overnight report #2 (16 Oct 01:30) — Latin family (.si confirmed free twice, .ai taken)
+opusone.si 23 (⚠ "Opus One" winery trademark) | lexmarket.si 18 (⚠ close to "Lexmark") | soltrade.si 17 | nexalink.si 17 | nexacloud.si 17 |
+voxpay.si 15 | veritasai.si 15 | voxhub.si 14 | voxdata.si 14 | primacare.si 14 | veracare.si 14 | lexdata.si 14 |
+voxcloud.si 12 | solsystems.si 12 | orbisai.si 12 | lexcapital.si 12
