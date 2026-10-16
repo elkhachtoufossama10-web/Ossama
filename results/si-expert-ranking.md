@@ -144,3 +144,4 @@ Dropped from consideration: clearcredit, novacredit, primecredit, primeinsurance
 ## Added 12:20 (new prefixes; .si free (confirmed twice), .ai taken)
 keystonelabs.si 16 | summitstudios.si 14 | Below: pinnaclelabs 11, onyxstudios 11, fusionanalytics 8, granitelabs 8, horizonanalytics 6
 Skipped for TM: meta* (Meta Platforms), geotrust (DigiCert SSL brand)
+zencare.si 23 (health/wellness — Tier A, short brandable) | cyberdynamics.si 17 (cyber/robotics; Terminator 'Cyberdyne' echo) | polygrid.si 14 (.energy .solar) | astrohealth.si 13 | Below: kinetichealth 11, omnisecurity 11
