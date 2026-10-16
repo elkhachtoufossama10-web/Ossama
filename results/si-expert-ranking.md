@@ -197,3 +197,8 @@ securepulse.si 16 | vaultflow.si 15 | vaultstack.si 12 | vaultlogic.si 12 | trus
 skynest.si 29 (proptech/smart-home/drone-hub brandable) | pixelverse.si 28 (⚠ PixelVerse crypto game — low TM) | terraverse.si 22 (.eco) | pixelhive.si 21 |
 echocore.si 20 | ironnest.si 20 | aeroverse.si 19 | skyloop.si 19 | lumencraft.si 18 | echoloop.si 16 | skyhive.si 15 (⚠ SkyHive AI workforce co.) | geoverse.si 14 | geonest.si 13
 Skipped TM: echonest (Spotify), ecoflow
+
+## Added 16:56 (winners × suffix3; .si free (confirmed twice), .ai taken)
+neonforge.si 30 (gaming/dev-tools brandable) | echobit.si 29 (incl. .bio .exchange .fund .software) | ironcrest.si 28 (incl. .capital — finance/security brandable) | skyridge.si 23 (.capital) |
+terrasync.si 19 | skycrest.si 17 | aquasync.si 16 | aquadome.si 15 | ironhaven.si 15 | haloforge.si 13 | echosync.si 12
+Skipped: irondome (Israeli defense system), skyharbor (Phoenix airport)
