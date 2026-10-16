@@ -202,3 +202,7 @@ Skipped TM: echonest (Spotify), ecoflow
 neonforge.si 30 (gaming/dev-tools brandable) | echobit.si 29 (incl. .bio .exchange .fund .software) | ironcrest.si 28 (incl. .capital — finance/security brandable) | skyridge.si 23 (.capital) |
 terrasync.si 19 | skycrest.si 17 | aquasync.si 16 | aquadome.si 15 | ironhaven.si 15 | haloforge.si 13 | echosync.si 12
 Skipped: irondome (Israeli defense system), skyharbor (Phoenix airport)
+
+## Added 17:13 (.si free (confirmed twice), .ai taken)
+novaloop.si 24 | moonridge.si 22 | astraforge.si 20 (space manufacturing) | blueverse.si 20 | apexcrest.si 14 | starhive.si 13 | Below: atlasverse 10
+Market note: short nova/core/star/sun + forge/nest/bit/verse combos mostly taken on .si (coreforge, novanest, novabit, sunforge, starverse, starnest, novacrest, astraverse, novaverse).
