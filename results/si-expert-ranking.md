@@ -185,3 +185,9 @@ Below: radiantai 10, neonhealth 9 (.ai unknown)
 geosense.si 24 (geospatial/IoT) | medisphere.si 21 (health) | hydropulse.si 20 (water/energy) | aerosense.si 20 (aero sensing) | theraflow.si 18 (.health .care) |
 vitalsense.si 17 | aeropath.si 16 | medivision.si 13 | vitalstack.si 12
 Dropped: neurosignal (404 then Registered). Skipped TM: aerologic (German cargo airline), ecoflow (EcoFlow power brand)
+
+## Added 15:50 (energy brandables; .si free (confirmed twice))
+powerpath.si 20 (.ai unknown this count) | nanopulse.si 14 | ampflow.si 14 | gridsignal.si 13 (.energy) | powermatrix.si 13 (.energy) | gridpath.si 13 (.energy)
+Below: gigasphere 8, ampstack 7, wattstack 7
+Security brandables hits (counts pending): vaultstack vaultlogic shieldstack securesense securepulse guardstack vaultsignal vaultflow trustlogic shieldpath
+Skipped TM: trustwave (cyber co.), securesphere (Imperva product), trustpulse (marketing plugin)
