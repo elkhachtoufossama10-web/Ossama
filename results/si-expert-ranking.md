@@ -39,3 +39,7 @@ Avoid (trademark): energyvault, fusioncloud, galaxyhub, apolloai, apollohealth, 
 ## Added 02:45 (counts finished; all .ai taken, .si free at check)
 Tier B: obsidianlabs 21, orcatech 20, iceguard 18 (cold-chain/cyber), arcticlabs 18, firevault 17 (security),
 northcloud 17, lionguard 14. Low-count niche: highna 3, gaafet 3, chipgrid 8, apolloenergy 11.
+
+## Added 03:35 (adjective family, .si free at check, .ai taken)
+trueledger.si 20 (.finance taken — strong fintech, Tier A) | truevault.si 17 (.finance taken; note: "TrueVault" is a US privacy-compliance company — moderate TM risk) |
+nextguard.si 14 (cyber) | swiftguard.si 13 (security)
