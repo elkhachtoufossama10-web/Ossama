@@ -43,3 +43,7 @@ northcloud 17, lionguard 14. Low-count niche: highna 3, gaafet 3, chipgrid 8, ap
 ## Added 03:35 (adjective family, .si free at check, .ai taken)
 trueledger.si 20 (.finance taken — strong fintech, Tier A) | truevault.si 17 (.finance taken; note: "TrueVault" is a US privacy-compliance company — moderate TM risk) |
 nextguard.si 14 (cyber) | swiftguard.si 13 (security)
+
+## Added 05:10 (check-in #5, .si free at check, .ai taken)
+westcare.si 39 (!! highest count found; incl. .health .care .clinic — likely one company's defensive portfolio, e.g. US "WestCare" → strong single buyer but check trademark) |
+swiftcare.si 21 (.health .clinic) | tigerdata.si 19 | wolflabs.si 18 | wavecloud.si 18 | truemarket.si 16 | wavehealth.si 13 (.care .clinic)
