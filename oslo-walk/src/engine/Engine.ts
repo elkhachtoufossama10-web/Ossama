@@ -491,6 +491,13 @@ export class Engine {
 }
 
 async function fetchWithProgress<T>(url: string, onp: (p: number) => void): Promise<T> {
+  // Single-file builds embed the data as <script type="application/json" id="data-<area>">
+  const id = 'data-' + (url.split('/').pop() ?? '').replace('.json', '');
+  const inline = document.getElementById(id);
+  if (inline?.textContent) {
+    onp(1);
+    return JSON.parse(inline.textContent) as T;
+  }
   const res = await fetch(url);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const total = Number(res.headers.get('content-length')) || 0;

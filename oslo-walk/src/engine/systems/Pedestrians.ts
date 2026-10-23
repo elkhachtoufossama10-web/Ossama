@@ -155,6 +155,7 @@ export class Pedestrians {
   /** Optional licensed GLB characters listed in /models/manifest.json: [{ "file": "x.glb" }] */
   private async loadGltfManifest() {
     try {
+      if (document.getElementById('data-karljohan')) return; // single-file build: no external models
       const res = await fetch('./models/manifest.json');
       if (!res.ok) return;
       const list = (await res.json()) as { file: string }[];
