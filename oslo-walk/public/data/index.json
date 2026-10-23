@@ -1,0 +1,26 @@
+[
+ {
+  "id": "karljohan",
+  "title": "Karl Johans gate",
+  "buildings": 664,
+  "estimatedHeights": 156
+ },
+ {
+  "id": "bjorvika",
+  "title": "Bj\u00f8rvika & the Opera",
+  "buildings": 185,
+  "estimatedHeights": 45
+ },
+ {
+  "id": "akerbrygge",
+  "title": "Aker Brygge",
+  "buildings": 175,
+  "estimatedHeights": 37
+ },
+ {
+  "id": "central",
+  "title": "Jernbanetorget & central streets",
+  "buildings": 315,
+  "estimatedHeights": 113
+ }
+]
