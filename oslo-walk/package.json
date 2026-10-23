@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b",
+    "build:artifact": "vite build --config vite.artifact.config.ts",
     "data": "python3 scripts/build_osm.py osm-raw public/data"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "@types/three": "0.180.0",
     "@vitejs/plugin-react": "5.0.4",
     "typescript": "5.9.3",
-    "vite": "7.1.12"
+    "vite": "7.1.12",
+    "vite-plugin-singlefile": "2.3.0"
   }
 }
