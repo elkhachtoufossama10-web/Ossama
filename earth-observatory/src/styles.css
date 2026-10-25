@@ -70,8 +70,9 @@ input[type='range'] { accent-color: var(--accent); width: 100%; }
 .search-list .search-credit { color: var(--muted); font-size: 0.75em; cursor: default; }
 .search-msg { position: absolute; top: 100%; color: var(--warn); font-size: 0.85em; }
 
-.main { display: grid; grid-template-columns: 1fr; min-height: 0; }
-.main.with-panel { grid-template-columns: 1fr minmax(360px, 460px); }
+.main { display: grid; grid-template-columns: minmax(0, 1fr); min-height: 0; min-width: 0; }
+.main.with-panel { grid-template-columns: minmax(0, 1fr) minmax(360px, 460px); }
+.side, .stage, .timebar { min-width: 0; }
 .stage { position: relative; min-height: 0; overflow: hidden; }
 .stage-globe, .globe-wrap, .globe { position: absolute; inset: 0; }
 .globe .cesium-widget, .globe .cesium-widget canvas { width: 100%; height: 100%; }
@@ -208,16 +209,23 @@ th, td { padding: 4px 6px; border-bottom: 1px solid var(--line); text-align: sta
 .phase-past { background: #3a1f45; color: #e6b3ff; }
 
 @media (max-width: 900px) {
-  body { overflow: auto; }
-  .app { height: auto; min-height: 100dvh; grid-template-rows: auto auto auto; }
-  .main, .main.with-panel { grid-template-columns: 1fr; }
-  .stage { height: 56dvh; }
+  body { overflow-x: hidden; overflow-y: auto; }
+  /* phone order: header, globe, time controls, then the panel */
+  .app { display: flex; flex-direction: column; height: auto; min-height: 100dvh; width: 100%; overflow-x: hidden; }
+  .main, .main.with-panel { display: contents; }
+  .topbar { order: 1; }
+  .stage { order: 2; height: 52dvh; flex: none; }
+  .timebar { order: 3; }
+  .side { order: 4; }
   .side { border-inline-start: none; border-top: 1px solid var(--line); overflow: visible; }
   .topbar { gap: 8px; padding: 8px 10px; }
   .brand small { display: none; }
   .nav { width: 100%; overflow-x: auto; flex-wrap: nowrap; margin: 0; }
   .search { flex-basis: 100%; max-width: none; order: 3; }
-  .timebar { position: sticky; bottom: 0; z-index: 10; }
+  .timebar { padding: 6px 8px; }
+  .tb-zone { display: none; }
+  .stats { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
+  .clock-row .big { font-size: 1.05rem; }
   .tb-row.sliders .slider { flex-basis: 100%; }
   .clock-row { grid-template-columns: 1fr 1fr; }
   .orbit-view { grid-template-columns: 1fr; grid-template-rows: 1fr auto; }

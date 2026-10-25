@@ -7,6 +7,7 @@
 import { arr, fetchJson, numOrNull, obj, type Validator } from './http';
 import type { Provenance } from './provenance';
 import { haversineKm } from './nws';
+import { SNAPSHOT_URL, STATIC_MODE } from './config';
 
 export interface Metar { icao: string; name: string; lat: number; lon: number; time: Date; temp: number | null; dewp: number | null; windDir: number | null; windKt: number | null; pressure: number | null; raw: string; cover: string; distanceKm: number; humidity: number | null }
 
@@ -29,16 +30,35 @@ export function rhFromDew(t: number, td: number) {
 export async function nearestMetar(lat: number, lon: number, maxKm = 80) {
   const d = Math.min(3, maxKm / 80 + 0.2);
   const bbox = [lat - d, lon - d * 1.5, lat + d, lon + d * 1.5].map((v) => v.toFixed(2)).join(',');
-  const url = `/api/metar?bbox=${bbox}`;
-  const r = await fetchJson(url, { ttlMs: 10 * 60e3, validate: vList, source: 'awc', retries: 1 });
-  const best = r.data
+  let list: Omit<Metar, 'distanceKm' | 'humidity'>[];
+  let fetchedAt: Date;
+  if (STATIC_MODE) {
+    // 10°×10° tiles of the bulk snapshot; a missing tile (404) just means no station there
+    const keys = new Set<string>();
+    for (const la of [lat - d, lat + d]) for (const lo of [lon - d * 1.5, lon + d * 1.5]) {
+      const a = Math.floor((Math.max(-89.99, Math.min(89.99, la)) + 90) / 10) * 10 - 90;
+      const b = Math.floor(((((lo + 180) % 360) + 360) % 360) / 10) * 10 - 180;
+      keys.add(`${a}_${b}`);
+    }
+    const parts = await Promise.all([...keys].map((k) =>
+      fetchJson(`${SNAPSHOT_URL}/metar/${k}.json`, { ttlMs: 10 * 60e3, validate: vList, source: 'awc-snapshot', retries: 1 })
+        .catch((e) => { if (e?.status === 404) return { data: [], fetchedAt: new Date() }; throw e; })));
+    list = parts.flatMap((p) => p.data);
+    fetchedAt = parts[0]?.fetchedAt ?? new Date();
+  } else {
+    const r = await fetchJson(`/api/metar?bbox=${bbox}`, { ttlMs: 10 * 60e3, validate: vList, source: 'awc', retries: 1 });
+    list = r.data;
+    fetchedAt = r.fetchedAt;
+  }
+  const best = list
     .map((m) => ({ ...m, distanceKm: haversineKm(lat, lon, m.lat, m.lon), humidity: m.temp !== null && m.dewp !== null ? rhFromDew(m.temp, m.dewp) : null }))
     .filter((m) => m.distanceKm <= maxKm)
     .sort((a, b) => a.distanceKm - b.distanceKm)[0];
   if (!best) return null;
   const prov: Provenance = {
-    kind: 'observation', producer: `${best.icao} airport weather station (national met service)`, provider: 'NOAA Aviation Weather Center Data API',
-    fetchedAt: r.fetchedAt, validTime: best.time, coverage: 'worldwide airports that publish METAR',
+    kind: 'observation', producer: `${best.icao} airport weather station (national met service)`,
+    provider: STATIC_MODE ? 'NOAA Aviation Weather Center bulk METAR file (copied every ~20 min by GitHub Actions)' : 'NOAA Aviation Weather Center Data API',
+    fetchedAt, validTime: best.time, coverage: 'worldwide airports that publish METAR',
     resolution: `single station, ${best.distanceKm.toFixed(0)} km from the selected point`, terms: 'Public domain (US Government work).',
     termsUrl: 'https://aviationweather.gov/data/api/', url: `https://aviationweather.gov/api/data/metar?ids=${best.icao}&format=json`, updateEveryMin: 60,
   };

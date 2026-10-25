@@ -9,6 +9,7 @@ import { climateNormals, historicalDay, recentHistory } from '../sources/era5';
 import { maybeUS, nwsAlerts, nwsLatestObservation } from '../sources/nws';
 import { nearestMetar } from '../sources/metar';
 import { reverseGeocode } from '../sources/geocoding';
+import { STATIC_MODE } from '../sources/config';
 import type { Provenance } from '../sources/provenance';
 import { ErrorNote, KindBadge, Loading, ProvenanceCard, Stat, Tabs, Term, useAsync } from './common';
 import { compass, fmtCoord, fmtNum, fmtTemp, fmtWind, toTemp } from './units';
@@ -274,7 +275,7 @@ function WeatherTab({ p, zone }: { p: Place; zone: string }) {
       <div className="card">
         <h3><KindBadge kind="observation" /> {L('أقرب رصد فعلي', 'Nearest actual observation')} (<Term id="metar">METAR</Term>)</h3>
         {metar.loading && <Loading />}
-        {metar.error && <p className="muted">{L('مصدر الأرصاد غير متاح هنا', 'Observation source unavailable here')} ({metar.error.message}). {L('يحتاج خادم التطبيق (npm run dev أو npm start) لأن واجهة NOAA لا تسمح بالطلب المباشر من المتصفح.', 'It needs the app server (npm run dev or npm start) because the NOAA API does not allow direct browser requests.')}</p>}
+        {metar.error && <p className="muted">{L('مصدر الأرصاد غير متاح هنا', 'Observation source unavailable here')} ({metar.error.message}). {STATIC_MODE ? L('النسخة العامة تقرأ نسخة من ملف NOAA تُحدَّث كل ~20 دقيقة؛ تعذّر تحميلها الآن.', 'The public version reads a copy of the NOAA file refreshed every ~20 min; it could not be loaded right now.') : L('يحتاج خادم التطبيق (npm run dev أو npm start) لأن واجهة NOAA لا تسمح بالطلب المباشر من المتصفح.', 'It needs the app server (npm run dev or npm start) because the NOAA API does not allow direct browser requests.')}</p>}
         {metar.data === null && !metar.loading && !metar.error && <p className="muted">{L('لا توجد محطة مطار تنشر METAR في نطاق 80 كم.', 'No airport station publishing METAR within 80 km.')}</p>}
         {metar.data && (
           <>

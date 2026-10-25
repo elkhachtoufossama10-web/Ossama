@@ -1,0 +1,51 @@
+# Builds the Earth Observatory and publishes it to /earth/ on master, which GitHub Pages serves at
+# https://<user>.github.io/<repo>/earth/ (Pages is configured to deploy from the master branch).
+name: Earth Observatory — test, build, publish
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'earth-observatory/**'
+      - '.github/workflows/earth-deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: earth-deploy
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: earth-observatory
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: earth-observatory/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - name: Build (static mode reads the data snapshot from the data branch)
+        run: npm run build
+        env:
+          VITE_DATA_SNAPSHOT_URL: https://raw.githubusercontent.com/${{ github.repository }}/data
+      - name: Commit the build to /earth
+        run: |
+          cd ..
+          rm -rf earth
+          cp -r earth-observatory/dist earth
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A earth
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Publish Earth Observatory build ${GITHUB_SHA::7}"
+          git pull --rebase origin master
+          git push origin HEAD:master

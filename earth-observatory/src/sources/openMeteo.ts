@@ -5,6 +5,7 @@
  */
 import { fetchJson, num, obj, series, arr, roundCoord, type Validator } from './http';
 import type { Provenance } from './provenance';
+import { SNAPSHOT_URL, STATIC_MODE } from './config';
 
 const BASE = 'https://api.open-meteo.com/v1/forecast';
 const MODEL = 'ecmwf_ifs025';
@@ -36,8 +37,9 @@ const metaValidator: Validator<ModelMeta> = (x) => {
 };
 
 export async function modelMeta() {
-  // meta.json has no CORS headers, so it is fetched through this app's server relay (server/relay.mjs)
-  const r = await fetchJson(`/api/model-meta?model=${MODEL}`, { ttlMs: 10 * 60e3, validate: metaValidator, source: 'open-meteo', retries: 0 });
+  // meta.json has no CORS headers: fetched through the server relay, or from the static snapshot on GitHub Pages
+  const url = STATIC_MODE ? `${SNAPSHOT_URL}/model-meta.json` : `/api/model-meta?model=${MODEL}`;
+  const r = await fetchJson(url, { ttlMs: 10 * 60e3, validate: metaValidator, source: 'open-meteo', retries: 0 });
   return r.data;
 }
 

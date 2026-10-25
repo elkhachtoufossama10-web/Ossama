@@ -1,0 +1,17 @@
+{
+  "name": "مرصد الأرض — Earth & Weather Explorer",
+  "short_name": "مرصد الأرض",
+  "description": "كرة أرضية تفاعلية، محاكاة فلكية للشمس والفصول، وبيانات طقس من مصادر موثوقة",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070d16",
+  "theme_color": "#09111c",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
