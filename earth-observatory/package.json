@@ -1,0 +1,32 @@
+{
+  "name": "earth-observatory",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "start": "node server/server.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/noto-kufi-arabic": "5.2.6",
+    "@photostructure/tz-lookup": "11.7.0",
+    "astronomy-engine": "2.1.19",
+    "cesium": "1.146.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "uplot": "1.6.32"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.17",
+    "@types/react-dom": "19.1.11",
+    "@vitejs/plugin-react": "5.0.4",
+    "typescript": "5.9.3",
+    "vite": "7.1.12",
+    "vite-plugin-static-copy": "3.1.4",
+    "vitest": "3.2.4"
+  }
+}

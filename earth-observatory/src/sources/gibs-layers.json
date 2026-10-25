@@ -1,0 +1,151 @@
+{
+ "BlueMarble_ShadedRelief_Bathymetry": {
+  "id": "BlueMarble_ShadedRelief_Bathymetry",
+  "title": "Blue Marble Shaded Relief and Bathymetry (MODIS)",
+  "kind": "base",
+  "tms": "GoogleMapsCompatible_Level8",
+  "maxLevel": 8,
+  "ext": "jpg",
+  "legend": null
+ },
+ "VIIRS_Black_Marble": {
+  "id": "VIIRS_Black_Marble",
+  "title": "Black Marble (VIIRS, Suomi NPP)",
+  "kind": "night",
+  "tms": "GoogleMapsCompatible_Level8",
+  "maxLevel": 8,
+  "ext": "png",
+  "legend": null,
+  "default": "2016-01-01",
+  "period": "P1Y",
+  "start": "2012-01-01",
+  "end": "2016-01-01"
+ },
+ "VIIRS_SNPP_CorrectedReflectance_TrueColor": {
+  "id": "VIIRS_SNPP_CorrectedReflectance_TrueColor",
+  "title": "Corrected Reflectance (True Color, VIIRS, Suomi NPP)",
+  "kind": "observation",
+  "tms": "GoogleMapsCompatible_Level9",
+  "maxLevel": 9,
+  "ext": "jpg",
+  "legend": null,
+  "default": "2026-10-24",
+  "period": "P1D",
+  "start": "2015-11-24",
+  "end": "2026-10-24"
+ },
+ "ASTER_GDEM_Greyscale_Shaded_Relief": {
+  "id": "ASTER_GDEM_Greyscale_Shaded_Relief",
+  "title": "Digital Elevation Model (Greyscale Shaded Relief, ASTER, Terra)",
+  "kind": "base",
+  "tms": "GoogleMapsCompatible_Level12",
+  "maxLevel": 12,
+  "ext": "jpg",
+  "legend": null
+ },
+ "Reference_Features_15m": {
+  "id": "Reference_Features_15m",
+  "title": "Reference Features (15m, OSM)",
+  "kind": "reference",
+  "tms": "GoogleMapsCompatible_Level13",
+  "maxLevel": 13,
+  "ext": "png",
+  "legend": null
+ },
+ "Reference_Labels_15m": {
+  "id": "Reference_Labels_15m",
+  "title": "Reference Labels (15m, OSM)",
+  "kind": "reference",
+  "tms": "GoogleMapsCompatible_Level13",
+  "maxLevel": 13,
+  "ext": "png",
+  "legend": null
+ },
+ "Coastlines_15m": {
+  "id": "Coastlines_15m",
+  "title": "Coastlines (15m, OSM)",
+  "kind": "reference",
+  "tms": "GoogleMapsCompatible_Level13",
+  "maxLevel": 13,
+  "ext": "png",
+  "legend": null
+ },
+ "AIRS_L2_Surface_Air_Temperature_Day": {
+  "id": "AIRS_L2_Surface_Air_Temperature_Day",
+  "title": "Surface Air Temperature (L2, Day, AIRS, Aqua)",
+  "kind": "retrieval",
+  "tms": "GoogleMapsCompatible_Level6",
+  "maxLevel": 6,
+  "ext": "png",
+  "legend": "https://gibs.earthdata.nasa.gov/legends/AIRS_Temperature_H.svg",
+  "default": "2026-10-24",
+  "period": "P1D",
+  "start": "2002-08-30",
+  "end": "2026-10-24"
+ },
+ "AIRS_L2_Surface_Air_Temperature_Night": {
+  "id": "AIRS_L2_Surface_Air_Temperature_Night",
+  "title": "Surface Air Temperature (L2, Night, AIRS, Aqua)",
+  "kind": "retrieval",
+  "tms": "GoogleMapsCompatible_Level6",
+  "maxLevel": 6,
+  "ext": "png",
+  "legend": "https://gibs.earthdata.nasa.gov/legends/AIRS_Temperature_H.svg",
+  "default": "2026-10-24",
+  "period": "P1D",
+  "start": "2002-08-30",
+  "end": "2026-10-24"
+ },
+ "AIRS_L2_Surface_Relative_Humidity_Day": {
+  "id": "AIRS_L2_Surface_Relative_Humidity_Day",
+  "title": "Surface Relative Humidity (L2, Day, AIRS, Aqua)",
+  "kind": "retrieval",
+  "tms": "GoogleMapsCompatible_Level6",
+  "maxLevel": 6,
+  "ext": "png",
+  "legend": "https://gibs.earthdata.nasa.gov/legends/AIRS_RelativeHumidity_H.svg",
+  "default": "2026-10-24",
+  "period": "P1D",
+  "start": "2002-08-30",
+  "end": "2026-10-24"
+ },
+ "MODIS_Terra_Cloud_Fraction_Day": {
+  "id": "MODIS_Terra_Cloud_Fraction_Day",
+  "title": "Cloud Fraction (Day, MODIS, Terra)",
+  "kind": "retrieval",
+  "tms": "GoogleMapsCompatible_Level6",
+  "maxLevel": 6,
+  "ext": "png",
+  "legend": "https://gibs.earthdata.nasa.gov/legends/MODIS_Cloud_Fraction_H.svg",
+  "default": "2026-10-25",
+  "period": "P1D",
+  "start": "2000-02-24",
+  "end": "2026-10-25"
+ },
+ "IMERG_Precipitation_Rate_30min": {
+  "id": "IMERG_Precipitation_Rate_30min",
+  "title": "Precipitation Rate, 30-minute avg. (IMERG) ",
+  "kind": "analysis",
+  "tms": "GoogleMapsCompatible_Level6",
+  "maxLevel": 6,
+  "ext": "png",
+  "legend": "https://gibs.earthdata.nasa.gov/legends/GPM_Precipitation_Rate_H.svg",
+  "default": "2026-10-24T18:30:00Z",
+  "period": "PT30M",
+  "start": "2026-01-19T20:30:00Z",
+  "end": "2026-10-24T18:30:00Z"
+ },
+ "MERRA2_2m_Air_Temperature_Monthly": {
+  "id": "MERRA2_2m_Air_Temperature_Monthly",
+  "title": "2-meter Air Temperature, (Monthly, MERRA2)",
+  "kind": "reanalysis",
+  "tms": "GoogleMapsCompatible_Level6",
+  "maxLevel": 6,
+  "ext": "png",
+  "legend": "https://gibs.earthdata.nasa.gov/legends/MERRA2_2m_Air_Temperature_Monthly_H.svg",
+  "default": "2026-07-01",
+  "period": "P1M",
+  "start": "1980-01-01",
+  "end": "2026-07-01"
+ }
+}
