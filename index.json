@@ -1,0 +1,9 @@
+{
+ "generatedAt": "2026-10-31T17:57:44+00:00",
+ "stations": 5143,
+ "tiles": 267,
+ "sources": [
+  "https://aviationweather.gov/data/cache/metars.cache.csv.gz",
+  "https://api.open-meteo.com/data/ecmwf_ifs025/static/meta.json"
+ ]
+}
